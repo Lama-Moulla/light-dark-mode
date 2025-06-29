@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+body {
+    background-color: #f0f4f5;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode {
+    background-color: #030318e7;
+    color: #ffffff;
+    h1{
+        color: white;
+    }
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 40px;
+    right: 120px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 4;
+    transition: transform 0.2s;
+    
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.all_container{
+    padding-top: 160px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        margin-bottom: 16px;
+        
+    }
+
+    h1{
+        margin-bottom: 16px;
+        font-size: 64px;
+        color: rgb(86, 143, 11);
+        
+    }
+
+    .social_icons .icons{
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+
+    img{
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .icon{
+        top: 20px;
+        right: 20px;
+    }
+
+    .all_container{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            text-align: center;
+        }
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+
+    .social_icons .icons{
+        margin-bottom: 20px;
+    }
+
+    img{
+        width: 100%;
+    }
+    }
+
+
+}
