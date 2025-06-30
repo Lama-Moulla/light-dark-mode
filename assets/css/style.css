@@ -18,6 +18,9 @@ body.dark-mode {
     h1{
         color: white;
     }
+    .social_icons .icons{
+        color: white;
+    }
 }
 
 .icon{
@@ -65,6 +68,7 @@ body.dark-mode {
         width: 25px;
         height: 25px;
         margin-right: 10px;
+        color: black;
     }
 
     img{
