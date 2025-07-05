@@ -65,8 +65,7 @@ body.dark-mode {
     }
 
     .social_icons .icons{
-        width: 25px;
-        height: 25px;
+        font-size: 30px;
         margin-right: 10px;
         color: black;
     }
@@ -112,8 +111,7 @@ body.dark-mode {
             }
 
             .social_icons .icons{
-                width: 20px;
-                height: 20px;
+                font-size: 25px;
                 margin-bottom: 20px;
             }
         }
